@@ -4,6 +4,7 @@ import './assets/css/App.css';
 
 //Importar componente
 import MiComponente from './components/MiComponente';
+import Peliculas from './components/Peliculas';
 
 function habla(nombre,edad){
   var presentacion = 
@@ -26,9 +27,7 @@ function App() {
         {habla(nombre,21)}
         <section className="componentes">
         <MiComponente />
-        <MiComponente />
-        <MiComponente />
-        <MiComponente />
+        <Peliculas />
       </section>
       </header>
       
