@@ -5,6 +5,8 @@ import './assets/css/App.css';
 //Importar componente
 import MiComponente from './components/MiComponente';
 import Peliculas from './components/Peliculas';
+import Header from './components/Header';
+import Slider from './components/Slider';
 
 function habla(nombre,edad){
   var presentacion = 
@@ -18,7 +20,11 @@ function App() {
   var nombre = 'Brian Jacobo' 
 
   return (
+
     <div className="App">
+
+      <Header />
+      <Slider /> 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
